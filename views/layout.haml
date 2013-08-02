@@ -1,0 +1,13 @@
+!!! 5
+%html
+  %head
+    %title PiBox
+    %link{rel: 'stylesheet', href: '/stylesheets/style.css'}
+  %body
+    .container= yield
+
+    %script{src: '/javascripts/jquery-2.0.0.min.js'}
+    %script{src: '/javascripts/highstock.js'}
+    %script{src: '/javascripts/exporting.js'}
+    %script{src: '/javascripts/gray.js'}
+    %script{src: '/javascripts/script.js'}
